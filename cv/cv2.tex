@@ -1,0 +1,186 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[pdftex]{hyperref}
+\usepackage{fontspec}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}	
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=mygreylink     % can put red here to better visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.30}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+
+
+%\setmainfont{Fontin} 
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+
+\begin{document}
+
+
+\par{\centering
+		{\Huge Rilwan Remilekun \textsc{Basaru}
+	}\bigskip\par}
+	%Section: Personal Data
+
+\section{Personal Data}
+
+\hspace{1cm}
+\begin{tabular}{rl}
+    \textsc{ Website:} & \hspace{1cm} \href{remibasaru.github.io/index.html}{remibasaru.github.io/index.html} \\
+    \textsc{Address:}   & \hspace{1cm} 30 Gordon Rd. Belvedere, Kent, United Kingdom. \\
+    \textsc{Phone:}     & \hspace{1cm} +44 7517035028\\
+    \textsc{email:}     & \hspace{1cm} \href{mailto:remi.basaru@aol.com}{remi.basaru@aol.com}
+\end{tabular}
+
+
+\renewcommand{\arraystretch}{1.5}
+%Section: Work Experience at the top
+\section{Work Experience}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{r|p{14cm}}
+
+% \textsc{Jan 2009} \hspace{0.25cm} & \hspace{0.25cm} \emph{Physical Natural Gas Trading}\\
+% \hspace{0.25cm} & \hspace{0.25cm}  {Provided analysis of spreads, in particular time and location spreads, with emphasis on trading opportunities on the curve, also taking into account the availability of storage facilities. Became familiar with logistic implications of physical gas trading and developed knowledge of continental virtual hubs for gas exchange.}\\\multicolumn{2}{c}{} \\ 
+ 
+\textsc{Nov 2017 -} & \textsc{Onaria Technologies}, London \\
+&\emph{Lead Software Developer / Computer Vision Scientist}\\
+&\footnotesize{ Designed and implemented deep learning based system for diagnosis segmentation of dental captures. Developed robust data capture Android mobile app and implemented dental diagnosis API on the Amazon Web Services (AWS) Cloud platform.}\\\multicolumn{2}{c}{} \\
+
+\textsc{Summer 2018} & \textsc{City University}, London \\
+&\emph{Research fellow on the SCAMPI project}\\
+&\footnotesize{Worked on implementing sensor tracking and prediction of patient's activities of daily living. Role involves implementing framework for collecting sensor reading, training a supervised Bayesian model for predicting activities performed by patients within the home.}\\\multicolumn{2}{c}{} \\
+
+ 
+\textsc{Summer 2017} & \textsc{Geovation Hub}, London \\
+&\emph{Software Developer}\\
+&\footnotesize{Worked on designing and implementing automated train capacity detection system using readily available on-board sensors. Implemented a prototype in-bound train capacity prediction model for Transport for London trains.}\\\multicolumn{2}{c}{} \\
+
+\textsc{Autumn 2013 -} & \textsc{City University}, London \\
+\textsc{ Spring 2017} &\emph{Visiting Hourly Paid Lecturer Role}\\
+&\footnotesize{
+Taught classes ranging from Applied Engineering Mathematics  to  Discrete Mathematics for Computing; Java and Python programming; Advanced databases etc.}\\
+&\normalsize \textsc{ } \hfill \footnotesize For detailed list of taught modules see: \href{remibasaru.github.io/teaching.html}{remibasaru.github.io/teaching.html}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rp{14cm}}	
+ \textsc{Dec.} 2017 & Doctor of Philosophy (PhD) in \textsc{Computer Vision \& Machine Learning}, \textbf{City University}, London\\
+& Thesis Title: ``Robust Hand Pose Recognition from Stereoscopic Capture'' \\
+& \small Supervisor: Dr. Gregory \textsc{Slabaugh}\\
+\\
+
+\textsc{July} 2013 & Bachelor's of Engineering (BEng) in \textsc{Biomedical Engineering} \textbf{City University}, London \\
+& Final Project Title: ``Automated Detection of Respiratory Diseases'' \\
+& \small Result: First Class (78.4\%)\\
+\\
+
+\textsc{June} 2010 & International Baccalaureate at \textbf{Dartford Grammar School}, Darford, Kent\\
+& \small Result:  370 UCAS points \\&\\
+
+\textsc{June} 2008 & GCSE at \textbf{Abbeywood School}, London \\
+& \small Result: 6 A's (incl: Mathematics, Statistics, Double sciences and IT) and  3 B's  \\
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Scholarships and Certificates}
+\begin{tabular}{rl}
+ \textsc{Jan.} 2011 & Professor Ludwick Finkelstein Scholarship at \textbf{City University}, London\\
+\textsc{Jan.} 2012 & Professor Ludwick Finkelstein Scholarship at \textbf{City University}, London\\
+\textsc{June} 2017 & Ponin Award at \textbf{Dartford Grammar School}, Darford, Kent.
+\end{tabular}
+
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+ \textsc{Yoruba:}&Mothertongue\\
+\textsc{English:}&Fluent\\
+\textsc{Spanish:}&Basic Knowledge\\
+\end{tabular}
+
+\section{Publications}
+\begin{tabular}{rl}
+% Basic Knowledge:& \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+Intermediate Knowledge:& \textsc{vba}, Excel, Word, PowerPoint\\
+\end{tabular}
+
+
+\section{Computer Skills}
+\begin{tabular}{rl}
+% Basic Knowledge:& \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+Intermediate Knowledge:& \textsc{vba}, Excel, Word, PowerPoint\\
+\end{tabular}
+
+\section{Interests and Activities}
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Football, Travelling
+
+
+
+\begin{description}
+
+
+\item[To be provided on request]{}
+%	\begin{center}
+%		\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}  l l l }
+%			Dr. Greg Slabaugh & Dr. Ling Shao & Dr. Charith Abhayaratne\\
+%			Senior Lecturer/Supervisor & Senior Lecturer & Lecturer/Project Supervisor\\ 
+%			\vspace{10pt} 
+%			City University London & The University of Sheffield & The University of Sheffield\\ 
+%		    United Kingdom & United Kingdom & United Kingdom \\
+%			+44(0)20 7040 8416 & +44(0)114 222 5841 & +44(0)114 222 5893\\
+%			\href{mailto: gregory.slabaugh.1@city.ac.uk}{gregory.slabaugh.1@city.ac.uk}  & \href{mailto: ling.shao@sheffield.ac.uk}{ling.shao@sheffield.ac.uk} & \href{mailto: c.abhayaratne@sheffield.ac.uk}{c.abhayaratne@sheffield.ac.uk}\\
+%		\end{tabular*}
+%	\end{center}
+%
+%		
+\end{description}
+\end{document}
+
