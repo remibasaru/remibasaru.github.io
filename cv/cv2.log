@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.9.11)  11 SEP 2018 20:20
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.9.11)  12 SEP 2018 14:23
  restricted \write18 enabled.
 **cv2.tex
 (./cv2.tex
@@ -335,7 +335,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.036 seconds)
+luaotfload | main : initialization completed in 0.034 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -775,7 +775,7 @@ luaotfload | load : path lookup of "Fontin-SmallCaps" unsuccessful, falling back
 luaotfload | load : path lookup of "Fontin-Italic" unsuccessful, falling back to
  file:
 luaotfload | load : path lookup of "Fontin" unsuccessful, falling back to file:
-Overfull \hbox (5.09085pt too wide) in paragraph at lines 82--108
+Overfull \hbox (32.52061pt too wide) in paragraph at lines 82--114
 [][][]  
  []
 
@@ -783,35 +783,37 @@ luaotfload | load : path lookup of "Fontin-Bold" unsuccessful, falling back to f
 ile:
 luaotfload | load : path lookup of "Fontin" unsuccessful, falling back to file:
 luaotfload | load : path lookup of "Fontin-SmallCaps" unsuccessful, falling back
- to file: [1
+ to file:
+luaotfload | load : path lookup of "Fontin-Bold" unsuccessful, falling back to f
+ile: [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./cv2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `cv2.out' has not changed.
-(rerunfilecheck)             Checksum: 2E9D7AD48B1635AE3C035BE080A41E7A;406.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
+(rerunfilecheck)             Checksum: 1F968A1C9B830F03D2363A339D4DD6C3;451.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
 )
 
 Here is how much of LuaTeX's memory you used:
- 18562 strings out of 495004
+ 18566 strings out of 495004
  100000,460012 words of node,token memory allocated
- 321 words of node memory still in use:
+ 322 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 47 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 2:623,3:115,4:1146,5:139,6:2337,7:95,8:11,9:231,10:241
- 21765 multiletter control sequences out of 65536+600000
- 50 fonts using 2636919 bytes
+   avail lists: 2:629,3:120,4:1228,5:141,6:2649,7:103,8:10,9:253,10:281
+ 21767 multiletter control sequences out of 65536+600000
+ 51 fonts using 2673559 bytes
  48i,9n,62p,399b,325s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./Fontin-Bold.otf><./Fontin-Italic.otf><./Fontin-SmallCaps.otf><./Fontin.otf>
-Output written on cv2.pdf (2 pages, 25947 bytes).
+Output written on cv2.pdf (2 pages, 28202 bytes).
 
-PDF statistics: 82 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 131072)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
